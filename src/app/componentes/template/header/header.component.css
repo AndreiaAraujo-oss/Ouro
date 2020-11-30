@@ -1,0 +1,56 @@
+        .header {
+            max-width: 100%;
+            top: auto;
+            display: flex;
+            align-items: center;
+        }
+        
+        .header a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+        
+        .logo {
+            max-height: 42px;
+            padding-left: 50px;
+        }
+        
+        .inputPesquisa {
+            width: 50px;
+            border-radius: 16px;
+            max-width: 100%;
+            padding-left: 150px;
+            min-width: 50%;
+            right: -35px;
+            /* Largura da imagem possui 20px */
+            height: 20px;
+            /* O padding influencia no tamanho do componente (Ã© como se fosse 20px + 5px da altura) */
+        }
+        
+        input[type=text] {
+            outline: 0;
+            position: absolute;
+            width: 247px;
+            height: 35px;
+            top: -50px;
+            box-sizing: border-box;
+            border: 1px solid#5A5758;
+            border-radius: 16px;
+            font-size: 16px;
+            background-color: white;
+            padding-left: 125px;
+            margin: 60px;
+            right: 310px;
+            text-decoration-color: white;
+        }
+        
+        .compras {
+            max-width: 100%;
+            padding-left: 100px;
+        }
+        
+        .user {
+            max-width: 100%;
+            padding-left: 700px;
+        }
