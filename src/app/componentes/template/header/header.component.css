@@ -3,6 +3,7 @@
             top: auto;
             display: flex;
             align-items: center;
+            height: 50px;
         }
         
         .header a {
@@ -17,29 +18,25 @@
         }
         
         .inputPesquisa {
-            width: 50px;
+            width: 100px;
             border-radius: 16px;
             max-width: 100%;
-            padding-left: 150px;
+            padding-left: 100px;
             min-width: 50%;
-            right: -35px;
-            /* Largura da imagem possui 20px */
             height: 20px;
             /* O padding influencia no tamanho do componente (Ã© como se fosse 20px + 5px da altura) */
         }
         
         input[type=text] {
+            position: relative;
             outline: 0;
-            position: absolute;
-            width: 247px;
+            width: 200px;
             height: 35px;
-            top: -50px;
-            box-sizing: border-box;
             border: 1px solid#5A5758;
             border-radius: 16px;
             font-size: 16px;
             background-color: white;
-            padding-left: 125px;
+            left: 50px;
             margin: 60px;
             right: 310px;
             text-decoration-color: white;
@@ -47,10 +44,10 @@
         
         .compras {
             max-width: 100%;
-            padding-left: 100px;
+            padding-left: -200px;
         }
         
         .user {
             max-width: 100%;
-            padding-left: 700px;
+            padding-left: 520px;
         }
